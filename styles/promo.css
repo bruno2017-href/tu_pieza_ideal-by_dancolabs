@@ -1,0 +1,96 @@
+.promo-modal {
+  display: none;
+  position: fixed;
+  z-index: 3000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(10, 10, 10, 0.85);
+  backdrop-filter: blur(6px);
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.promo-modal.active {
+  display: flex;
+  opacity: 1;
+}
+
+.promo-modal-content {
+  position: relative;
+  max-width: 400px;
+  width: 90%;
+  padding: 2.5rem 2rem 2rem 2rem;
+  text-align: center;
+  border-color: rgba(127, 255, 0, 0.4);
+  box-shadow:
+    0 10px 40px rgba(0, 0, 0, 0.8),
+    0 0 25px rgba(127, 255, 0, 0.15);
+  transform: translateY(-30px) scale(0.95);
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Efecto rebote */
+}
+
+.promo-modal.active .promo-modal-content {
+  transform: translateY(0) scale(1);
+}
+
+.close-promo {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  color: var(--text-muted);
+  font-size: 32px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: color 0.3s;
+  line-height: 1;
+}
+
+.close-promo:hover {
+  color: var(--neon-green);
+}
+
+/* =========================================
+   PROMOCIONES
+   ========================================= */
+.promo-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.promo-item {
+  margin: 0;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.promo-item:hover {
+  transform: translateY(-5px);
+  box-shadow:
+    0 25px 60px rgba(0, 0, 0, 0.55),
+    0 0 30px rgba(127, 255, 0, 0.12);
+}
+
+.promo-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .promo-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+}

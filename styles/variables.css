@@ -1,0 +1,14 @@
+/* =========================================
+   VARIABLES Y CONFIGURACIÓN BASE
+   ========================================= */
+:root {
+  --bg-dark: #111111;
+  --neon-green: #7fff00;
+  --neon-green-hover: #66cc00;
+  --text-main: #ffffff;
+  --text-muted: #9ca3af;
+  --glass-bg: rgba(255, 255, 255, 0.03);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --font-heading: "Poppins", sans-serif;
+  --font-body: "Inter", sans-serif;
+}

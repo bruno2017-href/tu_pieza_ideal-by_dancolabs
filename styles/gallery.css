@@ -1,0 +1,70 @@
+/* =========================================
+   GALERÍA Y LIGHTBOX
+   ========================================= */
+.gallery-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 1px solid var(--glass-border);
+  cursor: pointer; /* Cambia el cursor a una manita */
+  transition:
+    transform 0.3s ease,
+    filter 0.3s ease;
+}
+
+/* Efecto hover sutil al pasar el mouse */
+.gallery-img:hover {
+  transform: scale(1.03);
+  filter: brightness(1.2);
+}
+
+/* Modal de pantalla completa */
+.lightbox {
+  display: none; /* Oculto hasta que JavaScript lo active */
+  position: fixed;
+  z-index: 2000; /* Asegura que cubra el menú de navegación */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(10, 10, 10, 0.95); /* Fondo oscuro puro casi opaco */
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.lightbox.active {
+  display: flex;
+  opacity: 1;
+}
+
+.lightbox-content {
+  max-width: 90%;
+  max-height: 90vh;
+  border-radius: 12px;
+  box-shadow: 0 0 40px rgba(127, 255, 0, 0.15); /* Resplandor neón sutil de fondo */
+  transform: scale(0.95);
+  transition: transform 0.3s ease;
+}
+
+.lightbox.active .lightbox-content {
+  transform: scale(1);
+}
+
+/* Botón de cerrar "X" */
+.lightbox-close {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  color: var(--text-muted);
+  font-size: 50px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.lightbox-close:hover {
+  color: var(--neon-green);
+}

@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="1450" viewBox="0 0 1900 1450" role="img" aria-labelledby="title description">
+  <title id="title">Guía bilingüe de perforaciones de oreja | Tu Pieza Ideal</title>
+  <desc id="description">Infografía con una fotografía de una oreja con piercings y trece etiquetas en español e inglés.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111516"/>
+      <stop offset="0.55" stop-color="#090b0c"/>
+      <stop offset="1" stop-color="#141817"/>
+    </linearGradient>
+    <linearGradient id="photo-frame" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#39ff14" stop-opacity="0.28"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#39ff14" stop-opacity="0.28"/>
+    </linearGradient>
+    <style>
+      .eyebrow { font: 600 18px Inter, Arial, sans-serif; letter-spacing: 5px; fill: #b7ff9f; }
+      .heading { font: 700 42px Poppins, Inter, Arial, sans-serif; fill: #fff; }
+      .leader { fill: none; stroke: #f2f6f1; stroke-opacity: .82; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+      .anchor { fill: #39ff14; stroke: #0c100d; stroke-width: 3; }
+      .label-bg { fill: #0b0e0e; fill-opacity: .86; stroke: #ffffff; stroke-opacity: .15; }
+      .spanish { font: 700 23px Inter, Arial, sans-serif; fill: #fff; }
+      .english { font: 500 18px Inter, Arial, sans-serif; fill: #a9ff91; }
+      .watermark { font: 500 17px Inter, Arial, sans-serif; letter-spacing: 1.5px; fill: #fff; fill-opacity: .56; }
+    </style>
+  </defs>
+
+  <rect width="1900" height="1450" fill="url(#background)"/>
+  <path d="M70 117H1830" stroke="#ffffff" stroke-opacity=".1"/>
+  <text class="eyebrow" x="950" y="52" text-anchor="middle">TU PIEZA IDEAL · BODY PIERCING</text>
+  <text class="heading" x="950" y="101" text-anchor="middle">Guía de perforaciones · Ear Piercing Guide</text>
+
+  <rect x="503" y="158" width="894" height="1154" rx="18" fill="url(#photo-frame)"/>
+  <image href="guia-perforaciones.jpg" x="530" y="175" width="840" height="1120" preserveAspectRatio="xMidYMid meet"/>
+  <rect x="530" y="175" width="840" height="1120" fill="#050707" fill-opacity=".08"/>
+
+  <g aria-hidden="true">
+    <polyline class="leader" points="420,246 477,246 939,354"/>
+    <circle class="anchor" cx="939" cy="354" r="6"/>
+
+    <polyline class="leader" points="420,414 486,414 829,424"/>
+    <circle class="anchor" cx="829" cy="424" r="6"/>
+
+    <polyline class="leader" points="420,606 485,606 891,654"/>
+    <circle class="anchor" cx="891" cy="654" r="6"/>
+
+    <polyline class="leader" points="420,774 500,774 788,763"/>
+    <circle class="anchor" cx="788" cy="763" r="6"/>
+
+    <polyline class="leader" points="420,958 494,958 887,958"/>
+    <circle class="anchor" cx="887" cy="958" r="6"/>
+
+    <polyline class="leader" points="420,1142 492,1142 786,1046"/>
+    <circle class="anchor" cx="786" cy="1046" r="6"/>
+
+    <polyline class="leader" points="1480,246 1416,246 1202,403"/>
+    <circle class="anchor" cx="1202" cy="403" r="6"/>
+
+    <polyline class="leader" points="1480,414 1416,414 972,614"/>
+    <circle class="anchor" cx="972" cy="614" r="6"/>
+
+    <polyline class="leader" points="1480,582 1416,582 980,531"/>
+    <circle class="anchor" cx="980" cy="531" r="6"/>
+
+    <polyline class="leader" points="1480,750 1416,750 1110,662"/>
+    <circle class="anchor" cx="1110" cy="662" r="6"/>
+
+    <polyline class="leader" points="1480,918 1416,918 1148,728"/>
+    <circle class="anchor" cx="1148" cy="728" r="6"/>
+
+    <polyline class="leader" points="1480,1086 1416,1086 1000,907"/>
+    <circle class="anchor" cx="1000" cy="907" r="6"/>
+
+    <polyline class="leader" points="1480,1254 1416,1254 935,828"/>
+    <circle class="anchor" cx="935" cy="828" r="6"/>
+  </g>
+
+  <g>
+    <g transform="translate(52 210)">
+      <rect class="label-bg" width="368" height="72" rx="10"/>
+      <text class="spanish" x="18" y="30">Industrial</text>
+      <text class="english" x="18" y="55">Industrial</text>
+    </g>
+    <g transform="translate(52 378)">
+      <rect class="label-bg" width="368" height="72" rx="10"/>
+      <text class="spanish" x="18" y="30">Hélix Frontal</text>
+      <text class="english" x="18" y="55">Forward Helix</text>
+    </g>
+    <g transform="translate(52 570)">
+      <rect class="label-bg" width="368" height="72" rx="10"/>
+      <text class="spanish" x="18" y="30">Daith</text>
+      <text class="english" x="18" y="55">Daith</text>
+    </g>
+    <g transform="translate(52 738)">
+      <rect class="label-bg" width="368" height="72" rx="10"/>
+      <text class="spanish" x="18" y="30">Trago</text>
+      <text class="english" x="18" y="55">Tragus</text>
+    </g>
+    <g transform="translate(52 922)">
+      <rect class="label-bg" width="368" height="72" rx="10"/>
+      <text class="spanish" x="18" y="30">Lóbulo</text>
+      <text class="english" x="18" y="55">Lobe</text>
+    </g>
+    <g transform="translate(52 1106)">
+      <rect class="label-bg" width="368" height="72" rx="10"/>
+      <text class="spanish" x="18" y="30">Lóbulo Transversal</text>
+      <text class="english" x="18" y="55">Transverse Lobe</text>
+    </g>
+
+    <g transform="translate(1480 210)">
+      <rect class="label-bg" width="368" height="72" rx="10"/>
+      <text class="spanish" x="18" y="30">Hélix</text>
+      <text class="english" x="18" y="55">Helix</text>
+    </g>
+    <g transform="translate(1480 378)">
+      <rect class="label-bg" width="368" height="72" rx="10"/>
+      <text class="spanish" x="18" y="30">Rook</text>
+      <text class="english" x="18" y="55">Rook</text>
+    </g>
+    <g transform="translate(1480 546)">
+      <rect class="label-bg" width="368" height="72" rx="10"/>
+      <text class="spanish" x="18" y="30">Concha Interna</text>
+      <text class="english" x="18" y="55">Inner Conch</text>
+    </g>
+    <g transform="translate(1480 714)">
+      <rect class="label-bg" width="368" height="72" rx="10"/>
+      <text class="spanish" x="18" y="30">Snug</text>
+      <text class="english" x="18" y="55">Snug</text>
+    </g>
+    <g transform="translate(1480 882)">
+      <rect class="label-bg" width="368" height="72" rx="10"/>
+      <text class="spanish" x="18" y="30">Concha Orbital</text>
+      <text class="english" x="18" y="55">Orbital Conch</text>
+    </g>
+    <g transform="translate(1480 1050)">
+      <rect class="label-bg" width="368" height="72" rx="10"/>
+      <text class="spanish" x="18" y="30">Lóbulo Superior</text>
+      <text class="english" x="18" y="55">Upper Lobe</text>
+    </g>
+    <g transform="translate(1480 1218)">
+      <rect class="label-bg" width="368" height="72" rx="10"/>
+      <text class="spanish" x="18" y="30">Anti-Tragus</text>
+      <text class="english" x="18" y="55">Anti-Tragus</text>
+    </g>
+  </g>
+
+  <text class="watermark" x="1840" y="1408" text-anchor="end">danco labs x tu pieza ideal</text>
+</svg>
